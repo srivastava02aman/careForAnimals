@@ -17,7 +17,23 @@
   font-size: 1.3rem;
   text-transform: capitalize;
 }
-.menu_active {
-  font-weight: bold;
-  
+.navbar a:hover{
+  color: #3498db !important;
+}
+@media (max-width: 991px){
+  .navbar-brand{
+    font-size: 1.5rem !important;
+  }
+  .menu_active{
+    font-weight: bold;
+    border-radius: none;
+  }
+}
+
+h5{
+  color: grey !important;
+}
+
+.margin-top{
+  margin-top: 40px;
 }

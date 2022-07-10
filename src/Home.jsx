@@ -1,10 +1,18 @@
 import React from "react";
+import Common from "./Common";
+import webimg from "./img/dogs.jpg" 
 
 function Home() {
     return (
-      <div>
-        <h1>Home page</h1>
-      </div>
+      <>
+      <Common
+      name="Help us to save more animals"
+      description ="Our mission is to help stray dogs and animals, feed them , and provide medical care."
+      imgsrc={webimg}
+      visit="/Contact"
+      btname="Donate"
+      />
+      </>
     );
   }
   
