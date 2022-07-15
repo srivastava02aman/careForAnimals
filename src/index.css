@@ -35,5 +35,7 @@ h5{
 }
 
 .margin-top{
-  margin-top: 40px;
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+  margin: 90px 10px 90px 10px;
 }
